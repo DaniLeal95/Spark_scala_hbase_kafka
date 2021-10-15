@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spark-core" />
+        <module name="spark-hbase-applications" />
+        <module name="spark-streaming" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hbase-connectors" target="1.7" />
+      <module name="hbase-connectors-assembly" target="1.7" />
+      <module name="hbase-kafka-model" target="1.8" />
+      <module name="hbase-kafka-proxy" target="1.8" />
+      <module name="hbase-spark" target="1.8" />
+      <module name="hbase-spark-it" target="1.8" />
+      <module name="hbase-spark-protocol" target="1.8" />
+      <module name="kafka" target="1.7" />
+      <module name="spark" target="1.7" />
+      <module name="spark-hbase-integration" target="11" />
+      <module name="spark_core" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hbase-kafka-model" options="-Xlint:-options" />
+      <module name="hbase-kafka-proxy" options="-Xlint:-options" />
+      <module name="hbase-spark" options="-Xlint:-options" />
+      <module name="hbase-spark-it" options="-Xlint:-options" />
+      <module name="hbase-spark-protocol" options="-Xlint:-options" />
+    </option>
+  </component>
+</project>

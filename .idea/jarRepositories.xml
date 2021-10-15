@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="local" />
+      <option name="name" value="local" />
+      <option name="url" value="D:\TEST_REPOSITORY" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.snapshots" />
+      <option name="name" value="Apache Snapshot Repository" />
+      <option name="url" value="https://repository.apache.org/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="shc" />
+      <option name="name" value="shc" />
+      <option name="url" value="https://repo.hortonworks.com/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnRepo" />
+      <option name="name" value="mvnRepo" />
+      <option name="url" value="https://mvnrepository.com/artifact/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MVN_REPOSITORY" />
+      <option name="name" value="MVN_REPOSITORY" />
+      <option name="url" value="http://mvnrepository.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="confluent" />
+      <option name="name" value="confluent" />
+      <option name="url" value="https://packages.confluent.io/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MVN_REPOSITORY" />
+      <option name="name" value="MVN_REPOSITORY" />
+      <option name="url" value="https://mvnrepository.com/artifact/org.apache.spark" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MVN_REPOSITORY" />
+      <option name="name" value="MVN_REPOSITORY" />
+      <option name="url" value="https://mvnrepository.com/artifact/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MVN_REPOSITORY" />
+      <option name="name" value="MVN_REPOSITORY" />
+      <option name="url" value="https://mvnrepository.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="hbase" />
+      <option name="name" value="hbase" />
+      <option name="url" value="https://repository.apache.org/content/repositories/releases/" />
+    </remote-repository>
+  </component>
+</project>
